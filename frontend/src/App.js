@@ -1,5 +1,6 @@
 import React from "react";
 import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
    <div className="App">
     <Main />
 
+    <Footer />
    </div>
+   
   );
 }
 

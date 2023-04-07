@@ -11,19 +11,19 @@ const Main = () => {
                 </div>
             </div>
             <div className="Body">
-                <ul className="EventsBrite">
+                <ul className="EventBrite">
                     <li>
-                        <span className="EventBrite">Cirque du Soleil</span>
+                        <span className="Event">Cirque du Soleil</span>
                         <span className="Time">3:30PM</span>
                         <span className="Action">&#10007;</span>
                     </li>
                     <li>
-                        <span className="EventBrite">Life is Beautiful</span>
+                        <span className="Event">Life is Beautiful</span>
                         <span className="Time">5:00PM</span>
                         <span className="Action">&#10007;</span>
                     </li>
                     <li>
-                        <span className="EventBrite">Live music</span>
+                        <span className="Event">Live music</span>
                         <span className="Time">8:00PM</span>
                         <span className="Action">&#10007;</span>
                     </li>
@@ -33,7 +33,7 @@ const Main = () => {
                     <form>
                         <input className="eventField" type="text"  placeholder="New Event" />
                         <input className="eventTime" type="text" placeholder="Time" />
-                        <button className="submitBtn">Add EventBrite</button>
+                        <button className="submitBtn">Add Event</button>
                     </form>
                 </div>
             </div>
